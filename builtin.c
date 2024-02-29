@@ -1,5 +1,4 @@
 #include "shell.h"
-
 /**
  * print_built_ins - Prints and executes a specific built-in command
  * @command: the command to be executed
@@ -32,7 +31,6 @@ int print_built_ins(const char *command, char **argu)
 	}
 	return (0);
 }
-
 /**
  * handle_exit - Handles the exit command
  * @put_line: The command passed to the shell
